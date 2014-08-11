@@ -12,9 +12,72 @@
 .logo-description {
   padding-top: 30px;
   padding-bottom: 50px;
-	text-align: center;
+  text-align: center;
   font-size: 30px;
   color: #0082c8;
+}
+
+
+.docs-feature {
+  padding-top: 50px;
+}
+
+.container .row .jumbotron {
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #aab2bd;
+  box-sizing: border-box;
+}
+
+.container .row .jumbotron>.jumbotron-photo img {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  border-bottom: 1px solid #aab2bd;
+}
+
+.container .row .jumbotron .jumbotron-contents {
+  padding: 20px;
+  color: #434a54;
+}
+
+.container .row .jumbotron h1 {
+  font-size: 28px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.container .row .jumbotron h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.container .row .jumbotron p {
+  font-size: 14px;
+  font-weight: 200;
+  color: inherit;
+}
+
+.panel {
+  background-color: #fff;
+  border: 1px solid #aab2bd;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.progress {
+  border-radius: 5px;
+  height: 20px;
+  background-color: #e6e9ed;
+}
+
+.docs-section h1 {
+  color: #0082c8;
+}
+
+.docs-license {
+  padding-bottom: 30px;
 }
 
 .docs-footer {
@@ -24,6 +87,18 @@
   text-align: center;
 }
 
+.docs-footer .social {
+  padding-bottom: 10px;
+}
+
 .docs-footer p {
   margin-bottom: 0px;
+}
+
+.panel-heading a:hover {
+  color: white;
+}
+
+.panel-heading a:visited {
+  color: white;
 }
